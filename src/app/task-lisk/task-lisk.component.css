@@ -1,0 +1,78 @@
+.container{
+   
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+.todo-list{ display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    margin: auto;
+}
+.input-group{
+    display: flex;
+  
+
+}
+.table{
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    padding: 0%;
+}
+.add-button{
+    border-style: none;
+    cursor: pointer;
+    color:rgb(243, 233, 233);
+    background-color: rgb(122, 156, 129);
+    font-size: x-large;
+    font-weight: bold;
+}
+.done-button{
+    background-color: rgb(93, 155, 124);
+    color: aliceblue;
+}
+.remove-button{
+    background-color: rgb(204, 30, 30);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.odd{
+    background-color: rgb(142, 125, 156);
+}
+.even{
+    background-color: rgb(208, 205, 211);
+}
+
+.is-done{
+    text-decoration: line-through;
+
+}
+tr{
+    
+    height: 50px;
+    text-align: left;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    margin-left: 1rem;
+}
+button{
+    height: 100%;
+}
+input{
+    width: 100%;
+}
+p{
+    line-height: 50px;
+}
+
+.validation-error{
+    color:rgb(230, 36, 36);
+    margin-bottom: 10px;
+}
