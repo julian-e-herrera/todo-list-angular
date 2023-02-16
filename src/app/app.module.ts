@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaskLiskModule } from './task-lisk/task-lisk.module';
+import { TasksModule } from './tasks/tasks.module';
 import { CalendarModule } from './calendar/calendar.module';
 
 
@@ -15,7 +15,7 @@ import { CalendarModule } from './calendar/calendar.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TaskLiskModule,
+    TasksModule,
     CalendarModule,
 
   ],

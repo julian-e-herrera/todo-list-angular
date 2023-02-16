@@ -64,6 +64,11 @@ td{
 }
 button{
     height: 100%;
+    border-style: none;
+    cursor: pointer;
+}
+button:disabled{
+    background-color: gray;
 }
 input{
     width: 100%;
