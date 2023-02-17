@@ -11,7 +11,7 @@ export class CalendarComponent implements OnInit {
   
 
   ngOnInit(): void {
-    throw new Error("failed to load calendar");
+  
     
   }
 
